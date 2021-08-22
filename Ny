@@ -1,0 +1,67 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>class 2</title>
+
+    </head>
+    <body>
+        First Text
+        <h1 id="heading1">First Level Heading</h1>
+        <h2>First Level Heading</h2>
+        <h3>First Level Heading</h3>
+        <h4>First Level Heading</h4>
+        <h5>First Level Heading</h5>
+        <h6>First Level Heading</h6>
+       <p>
+            Hello World
+            <br>
+            <strong>Hello2</strong>
+            <br>
+            Hello3
+        </p> 
+        <div>
+            <h5>First Level Heading</h5>
+            <h6>First Level Heading</h6>
+            <p>
+                Hello World
+            </p>
+        </div>
+        <Li>Pizza</Li>
+        <Li>Buger</Li>
+        <Li>coke</Li>
+        <Li>water</Li>
+        <ul>
+            <Li>Pizza</Li>
+            <Li>burger</Li>
+            <Li>coke</Li>
+            <Li>water</Li>
+        </ul>
+        <ol type="I">
+            <Li>Pizza</Li>
+            <Li>Buger</Li>
+            <Li>coke</Li>
+            <Li>water</Li>
+        </ol>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.po6mPOwCodQzscfiXf6fmAHaEK%26pid%3DApi&f=1">
+        <img width="100px" height="100px" src="C:\Users\Raslan\Documents\Rise and shine! (2).png"> 
+        <!-- <img alt="pizza image" src="C:\Users\Raslan\Documents\Rise and shine! (2).jpeg"> -->
+        <!-- <video controls>
+            <source src=""D:\stock video\1016784073-preview.mp4"" type="video/mp4">
+            <source src=""D:\stock video\1016784073-preview.mp4"" type="video/mkv">
+            your browser does not support the video tag.
+        </video> -->
+        <video controls> 
+            <source src="D:\software dev\Video\Day 2 _ Fundamentals of HTML.mp4">
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6sphzFOyMk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <!-- <audio controls>
+            <source src="" type="audio/mp3">
+            <source src="" type="audio/wav">
+        </audio> -->
+        <audio controls>
+            <source src="C:\Users\Raslan\Downloads\recitation\114-An-Nas.mp3">
+            your browser does not support audio tag
+        </audio>
+    </body>
+</html>
