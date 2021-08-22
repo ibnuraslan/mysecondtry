@@ -1,0 +1,38 @@
+/* .pos {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+  } */
+
+.a {
+  display: inline;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+  margin: 10px;
+}
+
+.b {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  padding: 40px;
+  border: 1px solid blue;
+  background-color: yellow;
+  margin: 10px;
+  /* text-align: right; */
+}
+
+.c {
+  display: none;
+  width: 100px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 20%;
+  border: 1px solid blue;
+  background-color: yellow;
+  /* margin: 100px 00px 50px 10%; */
+  margin: auto;
+}

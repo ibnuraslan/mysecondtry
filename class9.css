@@ -1,0 +1,35 @@
+.btn {
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    color:black;
+}
+.btn:focus {
+    height: 150px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    transition-delay: 2s;
+    transition-duration: 2s;
+    /* transition-property: height; */
+}
+
+.parent {
+    width: 600px;
+    height: 1600px;
+    border: 4px solid red;
+    padding: 10px;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.child:focus {
+    background-color: green;
+    border-radius: 50%;
+    transform: translatex(200%);
+    transition: 3s ease-in-out;
+}

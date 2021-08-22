@@ -1,0 +1,64 @@
+.mobile {
+    display: block;
+    background-color: greenyellow;
+    font-size: 20px;
+}
+.tablet {
+    display: none;
+}
+.laptop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+        background-color: yellow;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .laptop {
+        display: block;
+        background-color: violet;
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .laptop {
+        display: block;
+        background-color: violet;
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .laptop {
+        display: block;
+        background-color: violet;
+        font-size: 60px;
+    }
+}

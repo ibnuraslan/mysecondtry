@@ -1,0 +1,21 @@
+body {
+    background-color: blue;
+}
+.firstbox {
+    border: black 10px solid;
+}
+#internal_ul{
+    background-color: cadetblue;
+}
+ol {
+    background-color: chocolate;
+}
+h2 {
+    background-color: darkgreen;
+}
+p[name="first_p_tag"] {
+    background-color: blueviolet;
+}
+img {
+    border-radius: 5%;
+}
